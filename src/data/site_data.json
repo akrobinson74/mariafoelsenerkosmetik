@@ -1,0 +1,44 @@
+{
+    "intro": {
+        "headlines": ["Holistic cosmetics", "Foot care", "Wellness"],
+        "keywords": ["AYURVEDIC MASSAGES","Gift Certificates", "Haudbesuche"],
+        "proprietor": "Maria Augusta Foelsener"
+    },
+    "service_categories": [
+        {
+            "description": "",
+            "name": "Facial"
+        },
+        {
+            "description": "",
+            "name": "Foot Care"
+        },
+        {
+            "description": "",
+            "name": "Hand Care"
+        }
+    ],
+    "services": [
+        {
+            "category": "Facial",
+            "description": "Cleaning, skin-analysis, deep-cleansing, brief massage, restorative treatment",
+            "duration": "~60 min.",
+            "name": "Standard Facial",
+            "price": 45
+        },
+        {
+            "category": "Facial",
+            "description": "Deep-cleansing, serum application",
+            "duration": "~30 min.",
+            "name": "S.O.S Facial Treatment",
+            "price": 30
+        },
+        {
+            "category": "Facial",
+            "description": "includes serum application",
+            "duration": "~20 min.",
+            "name": "Relaxing, Revitalizing Massage",
+            "price": 20
+        }
+    ]
+}
