@@ -1,12 +1,24 @@
 {
     "intro": {
-        "headlines": ["Holistic cosmetics", "Foot care", "Wellness"],
-        "keywords": ["AYURVEDIC MASSAGES","Gift Certificates", "Haudbesuche"],
+        "headlines": [
+            "Holistic cosmetics",
+            "Foot care",
+            "Wellness"
+        ],
+        "keywords": [
+            "Ayurvedic Massages",
+            "Gift Certificates",
+            "House Calls"
+        ],
         "proprietor": "Maria Augusta Foelsener"
     },
     "service_categories": [
         {
             "description": "",
+            "name": "Ayurvedic Massage"
+        },
+        {
+            "description": "All treatments begin with a whole-body relaxation rite",
             "name": "Facial"
         },
         {
@@ -15,30 +27,45 @@
         },
         {
             "description": "",
-            "name": "Hand Care"
+            "name": "Whole-Body"
         }
     ],
-    "services": [
-        {
-            "category": "Facial",
-            "description": "Cleaning, skin-analysis, deep-cleansing, brief massage, restorative treatment",
-            "duration": "~60 min.",
-            "name": "Standard Facial",
-            "price": 45
-        },
-        {
-            "category": "Facial",
-            "description": "Deep-cleansing, serum application",
-            "duration": "~30 min.",
-            "name": "S.O.S Facial Treatment",
-            "price": 30
-        },
-        {
-            "category": "Facial",
-            "description": "includes serum application",
-            "duration": "~20 min.",
-            "name": "Relaxing, Revitalizing Massage",
-            "price": 20
-        }
-    ]
+    "services": {
+        "Ayurvedic Massage": [],
+        "Facial": [
+            {
+                "description": "Cleaning, skin-analysis, deep-cleansing, brief massage, restorative treatment",
+                "duration": "~60 min",
+                "name": "Standard Facial",
+                "price": 45
+            },
+            {
+                "description": "Deep-cleansing, serum application",
+                "duration": "~30 min",
+                "name": "S.O.S Facial Treatment",
+                "price": 30
+            },
+            {
+                "description": "includes serum application",
+                "duration": "~20 min",
+                "name": "Relaxing, Revitalizing Massage",
+                "price": 20
+            }
+        ],
+        "Foot Care": [
+            {
+                "description": "Includes: heat compress, natural exfoliation, calf massage, and a glass of sparkling wine",
+                "duration": "~45 min",
+                "name": "Pedicure",
+                "price": 48   
+            },
+            {
+                "description": "Targetted pressure is applied to reflex points on the foot to alleviate pain throughout the body",
+                "duration": "~45 min",
+                "name": "Reflexzone Massage",
+                "price": 38
+            }
+        ],
+        "Whole-Body": []
+    }
 }

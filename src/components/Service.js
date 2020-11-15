@@ -1,10 +1,20 @@
 import React from 'react';
+import { Table } from 'react-bootstrap';
+import './Service.css';
 
 export default function Service({ category, description, duration, name, price }) {
-    return(
-        <div>
-            <h2>{name}</h2> <span>{duration}</span> <span>€ {price}</span>
-            <p>{description}</p>
-        </div>
+    return (
+        <Table>
+            <tbody>
+            <tr>
+                <td className="ServiceName">{name}</td>
+                <td>{duration}</td>
+                <td>{price}</td>
+            </tr>
+            <tr>
+                <td colSpan="3">{description}</td>
+            </tr>
+            </tbody>
+        </Table>
     );
 }
