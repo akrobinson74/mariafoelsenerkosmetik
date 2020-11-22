@@ -6,26 +6,16 @@ import ServiceCategory from './components/ServiceCategory';
 import { Col, Container, Row, Table } from 'react-bootstrap';
 
 function App() {
-  //   <Row>
-  //   <Col xl={3}><Intro {...data.intro} /></Col>
-  // </Row>
-  //   <Table striped bordered hover size="sm">
-  //   <Row>
-  //     <Col>
-  //     </Col>
-  //   </Row>
-  // </Table>
-
   return (
-    <Container className="App">
-      <Row className="ServiceCategoryRow">
+    <div className="App">
+      <ul className="ServiceCategoryRow">
         {data.service_categories.map((category) => (
-          <Col className="ServiceCategoryCol">
+          <li className="ServiceCategoryCol">
             <ServiceCategory category={category} services={data.services[category.name]} />
-          </Col>
+          </li>
         ))}
-      </Row>
-    </Container>
+      </ul>
+    </div>
   );
 }
 
