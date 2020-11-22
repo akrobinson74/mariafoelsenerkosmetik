@@ -31,7 +31,20 @@
         }
     ],
     "services": {
-        "Ayurvedic Massage": [],
+        "Ayurvedic Massage": [
+            {
+                "description": "Traditional Hawaiian temple massage resulting in a intense release of tension such that the soul is again in harmony with the body",
+                "duration": "~90 min",
+                "name": "Lomi-Lomi Massage",
+                "price": 95   
+            },
+            {
+                "description": "Hot lava stones are placed on the energy centers of the body and then an oil massage is performed using the stones",
+                "duration": "~90 min",
+                "name": "Hot-Cold Stone Massage",
+                "price": 90   
+            }
+        ],
         "Facial": [
             {
                 "description": "Cleaning, skin-analysis, deep-cleansing, brief massage, restorative treatment",

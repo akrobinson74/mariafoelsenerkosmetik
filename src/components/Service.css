@@ -1,3 +1,12 @@
 .ServiceName {
     font-weight: bold;
+    width: 325px;
+}
+
+.Duration {
+    width: 70px;
+}
+
+.Price {
+    width: 50px;
 }

@@ -4,12 +4,12 @@ import './Service.css';
 
 export default function Service({ category, description, duration, name, price }) {
     return (
-        <Table>
+        <Table className="service-table">
             <tbody>
             <tr>
                 <td className="ServiceName">{name}</td>
-                <td>{duration}</td>
-                <td>{price}</td>
+                <td className="Duration">{duration}</td>
+                <td className="Price">{price}</td>
             </tr>
             <tr>
                 <td colSpan="3">{description}</td>

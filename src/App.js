@@ -3,18 +3,26 @@ import './App.css';
 import data from './data/site_data.json';
 import Intro from './components/Intro';
 import ServiceCategory from './components/ServiceCategory';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Table } from 'react-bootstrap';
 
 function App() {
-  return (
+  //   <Row>
+  //   <Col xl={3}><Intro {...data.intro} /></Col>
+  // </Row>
+  //   <Table striped bordered hover size="sm">
+  //   <Row>
+  //     <Col>
+  //     </Col>
+  //   </Row>
+  // </Table>
 
+  return (
     <Container className="App">
-      <Row>
-        <Col xl={3}><Intro {...data.intro} /></Col>
-      </Row>
-      <Row>
+      <Row className="ServiceCategoryRow">
         {data.service_categories.map((category) => (
-          <Col lg><ServiceCategory category={category} services={data.services[category.name]} /></Col>
+          <Col className="ServiceCategoryCol">
+            <ServiceCategory category={category} services={data.services[category.name]} />
+          </Col>
         ))}
       </Row>
     </Container>
@@ -22,3 +30,4 @@ function App() {
 }
 
 export default App;
+
