@@ -14,37 +14,27 @@
     },
     "service_categories": [
         {
-            "description": "",
-            "name": "Ayurvedic Massage"
-        },
-        {
             "description": "All treatments begin with a whole-body relaxation rite",
             "name": "Facial"
         },
         {
             "description": "",
-            "name": "Foot Care"
+            "name": "EXTRAS"
+        },
+        {
+            "description": "All massages begin with a relaxing foot bath",
+            "name": "Whole-Body"
         },
         {
             "description": "",
-            "name": "Whole-Body"
+            "name": "Ayurvedic Massage"
+        },
+        {
+            "description": "",
+            "name": "Foot Care"
         }
     ],
     "services": {
-        "Ayurvedic Massage": [
-            {
-                "description": "Traditional Hawaiian temple massage resulting in a intense release of tension such that the soul is again in harmony with the body",
-                "duration": "~90 min",
-                "name": "Lomi-Lomi Massage",
-                "price": 95   
-            },
-            {
-                "description": "Hot lava stones are placed on the energy centers of the body and then an oil massage is performed using the stones",
-                "duration": "~90 min",
-                "name": "Hot-Cold Stone Massage",
-                "price": 90   
-            }
-        ],
         "Facial": [
             {
                 "description": "Cleaning, skin-analysis, deep-cleansing, brief massage, restorative treatment",
@@ -63,8 +53,108 @@
                 "duration": "~20 min",
                 "name": "Relaxing, Revitalizing Massage",
                 "price": 20
+            },
+            {
+                "description": "For smooth skin - includes a brief massage",
+                "duration": "~30 min",
+                "name": "Gentle Facial Peel",
+                "price": 30
+            },
+            {
+                "description": "Include facial serum",
+                "duration": "~20 min",
+                "name": "Relaxing, Vitalizing Massage",
+                "price": 20
+            },
+            {
+                "description": "Rose quartz and mountain crystal includes facial serum",
+                "duration": "~20 min",
+                "name": "Gem-stone Facial Massage",
+                "price": 25
+            },
+            {
+                "description": "",
+                "duration": "~60 min",
+                "name": "Men's Facial",
+                "price": 45
+            },
+            {
+                "description": "A high-frequency wand applies micro-currents to kill bacteria and reduce inflamation; treatment also includes compounds that eliminate excess wax",
+                "duration": "~45 min",
+                "name": "Teen Facial",
+                "price": 35
+            },
+            {
+                "description": "Facial steaming, deep cleansing, and high-frequency wand are applied to disinfect the skin",
+                "duration": "~60 min",
+                "name": "Acne Facial",
+                "price": 50
+            },
+            {
+                "description": "Deep pore cleansing via disincrustation, wax and debris collection undoes blemishes and reveal a clearer skin tone",
+                "duration": "~75 min",
+                "name": "Ultimate Acne Facial",
+                "price": 78
+            },
+            {
+                "description": "Intense moisture with serum",
+                "duration": "~60 min",
+                "name": "Fleece Mask Facial",
+                "price": 49
+            },
+            {
+                "description": "The application of current propagated across the skin leads to a more elastic, moisture-preserving cells",
+                "duration": "~75 min",
+                "name": "Anti-Aging Iontophoresis",
+                "price": 75
+            },
+            {
+                "description": "A bio-cellulose mask channels microcurrents for intensive tissue renewal",
+                "duration": "~75 min",
+                "name": "Galvanic Power Facial",
+                "price": 85
+            },
+            {
+                "description": "Wand treatment disinfects and ",
+                "duration": "~10 min",
+                "name": "High-frequency Wand Facial",
+                "price": 10
+            },
+            {
+                "description": "Cell renewal promoted via ultrasound waves.",
+                "duration": "~75 min",
+                "name": "Ultrasound Facial",
+                "price": 75
+            },
+            {
+                "description": "Serum for the reduction of cellulite",
+                "duration": "~75 min",
+                "name": "Thermo-Active Modeling",
+                "price": 60
+            },
+            {
+                "description": "Includes back, hand and arm massage with hand pack application",
+                "duration": "~75 min",
+                "name": "Intensive Facial",
+                "price": 70
             }
         ],
+        "EXTRAS": [],
+        "Ayurvedic Massage": [
+            {
+                "description": "Traditional Hawaiian temple massage resulting in a intense release of tension such that the soul is again in harmony with the body",
+                "duration": "~90 min",
+                "name": "Lomi-Lomi Massage",
+                "price": 95   
+            },
+            {
+                "description": "Hot lava stones are placed on the energy centers of the body and then an oil massage is performed using the stones",
+                "duration": "~90 min",
+                "name": "Hot-Cold Stone Massage",
+                "price": 90   
+            }
+        ],
+        "Whole-Body": [],
         "Foot Care": [
             {
                 "description": "Includes: heat compress, natural exfoliation, calf massage, and a glass of sparkling wine",
@@ -78,7 +168,6 @@
                 "name": "Reflexzone Massage",
                 "price": 38
             }
-        ],
-        "Whole-Body": []
+        ]
     }
 }
