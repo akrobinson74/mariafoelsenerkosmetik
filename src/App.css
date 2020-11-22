@@ -1,5 +1,6 @@
 .App {
-  margin: 0;
+  margin: 2px;
+  min-width: 640px;
   padding: 0;
   text-align: left justify;
 }
@@ -10,9 +11,10 @@
 
 }
 .ServiceCategoryRow {
+  align-content: flex-start;
   display: flex;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: flex-start;
   list-style: none;
 } */
 
