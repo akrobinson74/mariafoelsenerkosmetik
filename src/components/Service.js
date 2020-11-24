@@ -9,7 +9,7 @@ export default function Service({ category, description, duration, name, price }
             <tr>
                 <td className="ServiceName">{name}</td>
                 <td className="Duration">{duration}</td>
-                <td className="Price">{price}</td>
+                <td className="Price">{price === null ? "" : price}</td>
             </tr>
             <tr>
                 <td colSpan="3">{description}</td>

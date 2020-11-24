@@ -8,8 +8,8 @@
 .ServiceCategoryCol {
   min-width: 450px;
   max-width: 450px;
-
 }
+
 .ServiceCategoryRow {
   align-content: flex-start;
   display: flex;

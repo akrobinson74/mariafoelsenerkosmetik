@@ -31,6 +31,10 @@
         },
         {
             "description": "",
+            "name": "Hand Care"
+        },
+        {
+            "description": "",
             "name": "Foot Care"
         }
     ],
@@ -139,7 +143,56 @@
                 "price": 70
             }
         ],
-        "EXTRAS": [],
+        "EXTRAS": [
+            {
+                "description": "",
+                "duration": "~15 min",
+                "name": "Eyebrow Shaping",
+                "price": 15
+            },
+            {
+                "description": "",
+                "duration": "",
+                "name": "Eyebrow Coloring",
+                "price": null
+            },
+            {
+                "description": "",
+                "duration": "",
+                "name": "Eyelash Coloring",
+                "price": null
+            },
+            {
+                "description": "",
+                "duration": "",
+                "name": "Eyebrow and Eyelash Coloring",
+                "price": 18
+            },
+            {
+                "description": "",
+                "duration": "",
+                "name": "Milium cyst removal",
+                "price": "@0.50"
+            },
+            {
+                "description": "A holistic procedure to reduce earwax and provide relaxation",
+                "duration": "~30 min",
+                "name": "Ear Candeling",
+                "price": 30
+            },
+            {
+                "description": "",
+                "duration": "~20 nmin",
+                "name": "Day Makeup",
+                "price": 18
+            },
+            {
+                "description": "",
+                "duration": "~45 min",
+                "name": "Evening Makeup",
+                "price": 30
+            }
+        ],
         "Ayurvedic Massage": [
             {
                 "description": "Traditional Hawaiian temple massage resulting in a intense release of tension such that the soul is again in harmony with the body",
@@ -155,6 +208,7 @@
             }
         ],
         "Whole-Body": [],
+        "Hand Care": [],
         "Foot Care": [
             {
                 "description": "Includes: heat compress, natural exfoliation, calf massage, and a glass of sparkling wine",
