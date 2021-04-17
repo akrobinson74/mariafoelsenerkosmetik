@@ -3,7 +3,7 @@ import './App.css';
 import data from './data/site_data.json';
 import Intro from './components/Intro';
 import ServiceCategory from './components/ServiceCategory';
-import uuid from 'react-uuid'
+import uuid from 'react-uuid';
 
 function App() {
   return (
